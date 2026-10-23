@@ -11,7 +11,13 @@ export const LANGUAGES = [
   { code: 'es', label: 'Español', short: 'ES' },
 ]
 
-export const CONTENT = { pt, en, es }
+// Módulos e tutoriais com "hidden: true" não aparecem no site
+const visible = (modules) =>
+  modules
+    .filter((m) => !m.hidden)
+    .map((m) => ({ ...m, tutorials: m.tutorials.filter((tut) => !tut.hidden) }))
+
+export const CONTENT = { pt: visible(pt), en: visible(en), es: visible(es) }
 
 export const UI = {
   pt: {

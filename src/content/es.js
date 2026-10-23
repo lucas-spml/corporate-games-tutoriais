@@ -18,21 +18,36 @@ export default [
         video: '',
       },
       {
+        title: 'Armando equipos',
+        description: 'Crea equipos, define capitanes y organiza a los participantes.',
+        duration: '',
+        video: 'Q3hjlTp7feE',
+      },
+      {
+        title: 'Eligiendo modalidades',
+        description: 'Cómo seleccionar las modalidades e inscribir atletas en cada una.',
+        duration: '',
+        video: '',
+      },
+      {
         title: 'Creando tu cuenta',
         description: 'Paso a paso para registrarte e iniciar sesión por primera vez.',
         duration: '',
         video: '',
+        hidden: true,
       },
       {
         title: 'Navegando por el panel',
         description: 'Conoce los menús, los atajos y dónde encontrar cada información.',
         duration: '',
         video: '',
+        hidden: true,
       },
     ],
   },
   {
     id: 'inscripciones-equipos',
+    hidden: true,
     title: 'Inscripciones y equipos',
     description: 'Cómo armar tu equipo, invitar compañeros y gestionar las inscripciones.',
     tutorials: [
@@ -41,12 +56,6 @@ export default [
         description: 'Cómo registrar la empresa y definir a los responsables.',
         duration: '',
         video: '',
-      },
-      {
-        title: 'Armando equipos',
-        description: 'Crea equipos, define capitanes y organiza a los participantes.',
-        duration: '',
-        video: 'Q3hjlTp7feE',
       },
       {
         title: 'Invitando participantes',
@@ -58,15 +67,10 @@ export default [
   },
   {
     id: 'modalidades',
+    hidden: true,
     title: 'Modalidades',
     description: 'Reglas, formatos y consejos de cada modalidad que se disputa.',
     tutorials: [
-      {
-        title: 'Eligiendo modalidades',
-        description: 'Cómo seleccionar las modalidades e inscribir atletas en cada una.',
-        duration: '',
-        video: '',
-      },
       {
         title: 'Reglamento general',
         description: 'Las reglas principales que aplican a todas las competencias.',
@@ -87,7 +91,7 @@ export default [
         video: '',
       },
       {
-        title: 'Agenda y notificaciones',
+        title: 'Funcionalidades de la aplicación',
         description: 'Sigue los horarios de los partidos y recibe alertas en tiempo real.',
         duration: '',
         video: '',
@@ -101,19 +105,19 @@ export default [
     ],
   },
   {
-    id: 'puntuacion-ranking',
-    title: 'Puntuación y ranking',
-    description: 'Entiende cómo se calculan los puntos y cómo subir en el ranking.',
+    id: 'desafios',
+    title: 'Desafíos',
+    description: 'Conoce el módulo de desafíos de la app y cómo participar.',
     tutorials: [
       {
-        title: 'Cómo funciona la puntuación',
-        description: 'Los criterios de puntos por participación, victoria y posición final.',
+        title: 'Tipos de desafíos',
+        description: 'Los diferentes desafíos disponibles en la app y cómo funciona cada uno.',
         duration: '',
         video: '',
       },
       {
-        title: 'Siguiendo el ranking',
-        description: 'Mira la clasificación general, por empresa y por modalidad.',
+        title: 'Área para patrocinadores',
+        description: 'El espacio dedicado a los patrocinadores dentro de los desafíos.',
         duration: '',
         video: '',
       },
@@ -121,6 +125,7 @@ export default [
   },
   {
     id: 'gestores',
+    hidden: true,
     title: 'Para gestores',
     description: 'Herramientas para RR. HH. y organizadores que administran el evento.',
     tutorials: [

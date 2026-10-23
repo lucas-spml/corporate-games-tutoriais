@@ -7,6 +7,7 @@
 //    'https://youtu.be/XXXXXXXXXXX'
 //    'XXXXXXXXXXX'
 //  Deixe '' para mostrar o espaço "Vídeo em breve".
+//  Adicione hidden: true para ocultar um tutorial (ou um módulo inteiro) do site.
 // ─────────────────────────────────────────────────────────────
 
 export default [
@@ -22,21 +23,36 @@ export default [
         video: '',
       },
       {
+        title: 'Montando equipes',
+        description: 'Crie equipes, defina capitães e organize os participantes.',
+        duration: '',
+        video: 'B9RG4V2ZkEY',
+      },
+      {
+        title: 'Escolhendo modalidades',
+        description: 'Como selecionar as modalidades e inscrever atletas em cada uma.',
+        duration: '',
+        video: '',
+      },
+      {
         title: 'Criando sua conta',
         description: 'Passo a passo para se cadastrar e acessar pela primeira vez.',
         duration: '',
         video: '',
+        hidden: true,
       },
       {
         title: 'Navegando pelo painel',
         description: 'Conheça os menus, atalhos e onde encontrar cada informação.',
         duration: '',
         video: '',
+        hidden: true,
       },
     ],
   },
   {
     id: 'inscricoes-equipes',
+    hidden: true,
     title: 'Inscrições e equipes',
     description: 'Como montar sua equipe, convidar colegas e gerenciar inscrições.',
     tutorials: [
@@ -45,12 +61,6 @@ export default [
         description: 'Como registrar a empresa e definir os responsáveis.',
         duration: '',
         video: '',
-      },
-      {
-        title: 'Montando equipes',
-        description: 'Crie equipes, defina capitães e organize os participantes.',
-        duration: '',
-        video: 'B9RG4V2ZkEY',
       },
       {
         title: 'Convidando participantes',
@@ -62,15 +72,10 @@ export default [
   },
   {
     id: 'modalidades',
+    hidden: true,
     title: 'Modalidades',
     description: 'Regras, formatos e dicas de cada modalidade disputada.',
     tutorials: [
-      {
-        title: 'Escolhendo modalidades',
-        description: 'Como selecionar as modalidades e inscrever atletas em cada uma.',
-        duration: '',
-        video: '',
-      },
       {
         title: 'Regulamento geral',
         description: 'As principais regras que valem para todas as competições.',
@@ -91,7 +96,7 @@ export default [
         video: '',
       },
       {
-        title: 'Agenda e notificações',
+        title: 'Funcionalidades do aplicativo',
         description: 'Acompanhe horários dos jogos e receba alertas em tempo real.',
         duration: '',
         video: '',
@@ -105,19 +110,19 @@ export default [
     ],
   },
   {
-    id: 'pontuacao-ranking',
-    title: 'Pontuação e ranking',
-    description: 'Entenda como os pontos são calculados e como subir no ranking.',
+    id: 'desafios',
+    title: 'Desafios',
+    description: 'Conheça o módulo de desafios do app e como participar.',
     tutorials: [
       {
-        title: 'Como funciona a pontuação',
-        description: 'Os critérios de pontos por participação, vitória e colocação.',
+        title: 'Tipos de desafios',
+        description: 'Os diferentes desafios disponíveis no app e como cada um funciona.',
         duration: '',
         video: '',
       },
       {
-        title: 'Acompanhando o ranking',
-        description: 'Veja a classificação geral, por empresa e por modalidade.',
+        title: 'Área para patrocinadores',
+        description: 'O espaço dedicado aos patrocinadores dentro dos desafios.',
         duration: '',
         video: '',
       },
@@ -125,6 +130,7 @@ export default [
   },
   {
     id: 'gestores',
+    hidden: true,
     title: 'Para gestores',
     description: 'Ferramentas para RH e organizadores administrarem o evento.',
     tutorials: [

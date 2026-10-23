@@ -18,21 +18,36 @@ export default [
         video: '',
       },
       {
+        title: 'Building teams',
+        description: 'Create teams, pick captains and organize participants.',
+        duration: '',
+        video: '37hYniY1aFw',
+      },
+      {
+        title: 'Choosing your sports',
+        description: 'How to pick sports and enter athletes in each one.',
+        duration: '',
+        video: '',
+      },
+      {
         title: 'Creating your account',
         description: 'Step by step to sign up and log in for the first time.',
         duration: '',
         video: '',
+        hidden: true,
       },
       {
         title: 'Finding your way around',
         description: 'Learn the menus, shortcuts and where to find everything.',
         duration: '',
         video: '',
+        hidden: true,
       },
     ],
   },
   {
     id: 'registration-teams',
+    hidden: true,
     title: 'Registration & teams',
     description: 'Build your team, invite colleagues and manage registrations.',
     tutorials: [
@@ -41,12 +56,6 @@ export default [
         description: 'How to register the company and set the people in charge.',
         duration: '',
         video: '',
-      },
-      {
-        title: 'Building teams',
-        description: 'Create teams, pick captains and organize participants.',
-        duration: '',
-        video: '37hYniY1aFw',
       },
       {
         title: 'Inviting participants',
@@ -58,15 +67,10 @@ export default [
   },
   {
     id: 'sports',
+    hidden: true,
     title: 'Sports',
     description: 'Rules, formats and tips for every competition.',
     tutorials: [
-      {
-        title: 'Choosing your sports',
-        description: 'How to pick sports and enter athletes in each one.',
-        duration: '',
-        video: '',
-      },
       {
         title: 'General rules',
         description: 'The key rules that apply to every competition.',
@@ -87,7 +91,7 @@ export default [
         video: '',
       },
       {
-        title: 'Schedule & notifications',
+        title: 'App features',
         description: 'Keep track of match times and get real-time alerts.',
         duration: '',
         video: '',
@@ -101,19 +105,19 @@ export default [
     ],
   },
   {
-    id: 'scoring-ranking',
-    title: 'Scoring & ranking',
-    description: 'Understand how points are earned and how to climb the ranking.',
+    id: 'challenges',
+    title: 'Challenges',
+    description: 'Get to know the app’s challenges module and how to take part.',
     tutorials: [
       {
-        title: 'How scoring works',
-        description: 'Points for participation, wins and final placement.',
+        title: 'Types of challenges',
+        description: 'The different challenges available in the app and how each one works.',
         duration: '',
         video: '',
       },
       {
-        title: 'Following the ranking',
-        description: 'See the overall standings, by company and by sport.',
+        title: 'Sponsor area',
+        description: 'The space dedicated to sponsors within the challenges.',
         duration: '',
         video: '',
       },
@@ -121,6 +125,7 @@ export default [
   },
   {
     id: 'managers',
+    hidden: true,
     title: 'For managers',
     description: 'Tools for HR and organizers to run the event.',
     tutorials: [
