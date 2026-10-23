@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // O site é publicado na raiz de tutorials.corporategames.app
-  base: '/',
+  // Caminhos relativos: funciona em tutorials.corporategames.app
+  // e também em lucas-spml.github.io/corporate-games-tutoriais/
+  base: './',
 })
