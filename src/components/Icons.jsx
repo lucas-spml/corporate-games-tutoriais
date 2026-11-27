@@ -61,3 +61,9 @@ export const Globe = (p) => (
     <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
   </svg>
 )
+
+export const ExternalLink = (p) => (
+  <svg {...base} width={16} height={16} {...p}>
+    <path d="M7 17 17 7M8 7h9v9" />
+  </svg>
+)

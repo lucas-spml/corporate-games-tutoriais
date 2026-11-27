@@ -7,9 +7,24 @@
 
 export default [
   {
-    id: 'primeros-pasos',
-    title: 'Primeros pasos',
-    description: 'Todo lo que necesitas para empezar en la plataforma de Corporate Games.',
+    id: 'panel-administrador',
+    link: 'https://admin.corporategames.app/',
+    title: 'Panel del administrador',
+    description: 'Herramientas y configuraciones para quienes administran el evento en la plataforma.',
+    tutorials: [
+      {
+        title: 'Registrando árbitros',
+        description: 'Cómo registrar a un árbitro, cuáles son sus privilegios, cómo accede al panel y qué visualiza.',
+        duration: '',
+        video: '8ExTwtyGvMw',
+      },
+    ],
+  },
+  {
+    id: 'panel-rrhh',
+    link: 'https://hr.corporategames.app/',
+    title: 'Panel de RR. HH.',
+    description: 'Todo lo que RR. HH. necesita para organizar la participación de la empresa en Corporate Games.',
     tutorials: [
       {
         title: 'Bienvenido a Corporate Games',
@@ -81,6 +96,8 @@ export default [
   },
   {
     id: 'aplicacion',
+    link: 'https://www.corporategamesbrasil.com/app',
+    linkText: 'Descargar la app',
     title: 'Aplicación',
     description: 'Usa la app para seguir partidos, resultados y notificaciones.',
     tutorials: [

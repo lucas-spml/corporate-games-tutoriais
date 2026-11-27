@@ -7,9 +7,24 @@
 
 export default [
   {
-    id: 'getting-started',
-    title: 'Getting started',
-    description: 'Everything you need to get going on the Corporate Games platform.',
+    id: 'admin-panel',
+    link: 'https://admin.corporategames.app/',
+    title: 'Admin panel',
+    description: 'Tools and settings for those who run the event on the platform.',
+    tutorials: [
+      {
+        title: 'Registering referees',
+        description: 'How to register a referee, what they are allowed to do, how they access the panel and what they see.',
+        duration: '',
+        video: 'Ael18Lnvqlc',
+      },
+    ],
+  },
+  {
+    id: 'hr-panel',
+    link: 'https://hr.corporategames.app/',
+    title: 'HR panel',
+    description: 'Everything HR needs to organize the company’s participation in Corporate Games.',
     tutorials: [
       {
         title: 'Welcome to Corporate Games',
@@ -81,6 +96,8 @@ export default [
   },
   {
     id: 'app',
+    link: 'https://www.corporategamesbrasil.com/app',
+    linkText: 'Get the app',
     title: 'Mobile app',
     description: 'Use the app to follow matches, results and notifications.',
     tutorials: [

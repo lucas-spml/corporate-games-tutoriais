@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Clock } from './Icons.jsx'
+import { Clock, ExternalLink } from './Icons.jsx'
 import VideoEmbed from './VideoEmbed.jsx'
 
 const ease = [0.22, 1, 0.36, 1]
@@ -50,6 +50,13 @@ export default function ModuleSection({ module, index, t }) {
           </p>
           <h2 className="module-title">{module.title}</h2>
           <p className="module-text">{module.description}</p>
+          {module.link && (
+            <a className="module-link" href={module.link} target="_blank" rel="noopener noreferrer">
+              <span className="module-link-label">{module.linkText || t.openPanel}</span>
+              <span className="module-link-url">{module.link.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</span>
+              <ExternalLink />
+            </a>
+          )}
         </div>
       </motion.header>
 

@@ -610,6 +610,51 @@ a {
   color: var(--muted);
 }
 
+.module-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 10px 16px 10px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--red-soft);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.module-link-url {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.module-link svg {
+  color: var(--red-text);
+  transition: transform 0.2s var(--ease);
+}
+
+.module-link:hover {
+  border-color: var(--red);
+  background: var(--glow);
+}
+
+.module-link:hover svg {
+  transform: translate(2px, -2px);
+}
+
+.module-link:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 480px) {
+  .module-link-url {
+    display: none;
+  }
+}
+
 /* ───────────── Cards ───────────── */
 .card-grid {
   display: grid;

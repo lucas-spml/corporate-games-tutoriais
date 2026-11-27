@@ -8,13 +8,30 @@
 //    'XXXXXXXXXXX'
 //  Deixe '' para mostrar o espaço "Vídeo em breve".
 //  Adicione hidden: true para ocultar um tutorial (ou um módulo inteiro) do site.
+//  Em um módulo, "link" (opcional) mostra o botão "Acessar o painel" com o endereço do site.
+//  Use "linkText" para trocar o texto do botão (ex: 'Baixar o app').
 // ─────────────────────────────────────────────────────────────
 
 export default [
   {
-    id: 'primeiros-passos',
-    title: 'Primeiros passos',
-    description: 'Tudo o que você precisa para começar na plataforma Corporate Games.',
+    id: 'painel-administrador',
+    link: 'https://admin.corporategames.app/',
+    title: 'Painel do administrador',
+    description: 'Ferramentas e configurações para quem administra o evento na plataforma.',
+    tutorials: [
+      {
+        title: 'Cadastrando árbitros',
+        description: 'Como cadastrar um árbitro, quais são seus privilégios, como ele acessa o painel e o que ele visualiza.',
+        duration: '',
+        video: 'ljFt4wkF5zw',
+      },
+    ],
+  },
+  {
+    id: 'painel-rh',
+    link: 'https://hr.corporategames.app/',
+    title: 'Painel do RH',
+    description: 'Tudo o que o RH precisa para organizar a participação da empresa no Corporate Games.',
     tutorials: [
       {
         title: 'Bem-vindo ao Corporate Games',
@@ -86,6 +103,8 @@ export default [
   },
   {
     id: 'aplicativo',
+    link: 'https://www.corporategamesbrasil.com/app',
+    linkText: 'Baixar o app',
     title: 'Aplicativo',
     description: 'Use o app para acompanhar jogos, resultados e notificações.',
     tutorials: [

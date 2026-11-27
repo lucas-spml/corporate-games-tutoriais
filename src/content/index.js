@@ -38,6 +38,7 @@ export const UI = {
     backToTop: 'Voltar ao topo',
     footer: 'Todos os direitos reservados.',
     play: 'Assistir',
+    openPanel: 'Acessar o painel',
   },
   en: {
     eyebrow: 'Tutorial hub',
@@ -57,6 +58,7 @@ export const UI = {
     backToTop: 'Back to top',
     footer: 'All rights reserved.',
     play: 'Watch',
+    openPanel: 'Open the panel',
   },
   es: {
     eyebrow: 'Centro de tutoriales',
@@ -76,5 +78,6 @@ export const UI = {
     backToTop: 'Volver arriba',
     footer: 'Todos los derechos reservados.',
     play: 'Ver',
+    openPanel: 'Acceder al panel',
   },
 }
